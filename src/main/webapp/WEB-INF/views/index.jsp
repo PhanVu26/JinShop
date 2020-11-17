@@ -77,7 +77,7 @@
 	<div id="container-product" class="container">
 		<span>SẢN PHẨM HOT</span>
 		<div class="row">
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -88,7 +88,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -99,7 +99,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -121,7 +121,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -143,7 +143,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -154,7 +154,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-6" style="width: 18rem;">
+			<div class="col-md-4 col-lg-3 col-sm-6" style="width: 18rem;">
 				<div class="card custom-card">
 					<img src='<c:url value = "/resources/images/sanpham.png"/>'
 						" class="card-img-top" alt="...">
@@ -164,6 +164,23 @@
 						<a href="#" class="btn btn-primary">Đặt hàng</a>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="footer">
+		<div class="row">
+			<div class="col-md-4">
+				<span>THÔNG TIN SHOP</span><br>
+				<span>Đây là thông tin shop</span>
+			</div>
+			<div class="col-md-4">
+				<span>LIÊN HỆ</span><br>
+				<span>Đây là thông tin liên hệ</span>
+			</div>
+			<div class="col-md-4">
+				<span>GÓP Ý</span><br>
+				<span>Đây là nơi góp ý</span>
 			</div>
 		</div>
 	</div>

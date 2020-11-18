@@ -1,5 +1,5 @@
 #header {
-	height: 600px;
+	height: 700px;
 	background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
 		url("../images/background_home.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -67,10 +67,12 @@
 .icon {
 	width: 48px;
 	height: 48px;
+	margin-bottom: 20px;
 }
 #infor {
  text-align: center; 
- margin-top: 48px;
+ margin-top: 70px;
+ margin-bottom: 100px;
 }
 
 #container-product{
@@ -78,6 +80,10 @@
 	margin-top: 68px;
 	font-size: 32px;
 	font-weight: 500px;
+}
+
+#container-product > div {
+	margin-top: 20px;	
 }
 
 .custom-card{

@@ -46,7 +46,7 @@
 			</div>
 		</nav>
 
-		<div class="event-header">
+		<div class="event-header animate__animated animate__bounce animate__repeat-2">
 			<span>Ngày 10/11/2020-Ngày 16/11/2020</span><br> <span
 				style="font-size: 50px">Mua 1 tặng 1</span><br>
 			<button value="Xem ngay">Xem ngay</button>
@@ -54,22 +54,22 @@
 	</div>
 	<div id="infor" class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 animate__animated animate__fadeInLeft animate__slow ">
 				<img class="icon"
 					src='<c:url value="/resources/images/icon_chatluong.png" />'><br>
 				<span style="font-size: 24px; font-weight: bold;">CHẤT LƯỢNG</span><br>
 				<span>Chúng tôi cam kết chất lượng</span>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 animate__animated animate__fadeInDown animate__slow animate__delay-1s">
 				<img class="icon"
-					src='<c:url value="/resources/images/icon_chatluong.png" />'><br>
-				<span style="font-size: 24px; font-weight: bold;">CHẤT LƯỢNG</span><br>
+					src='<c:url value="/resources/images/icon_conheo.png" />'><br>
+				<span style="font-size: 24px; font-weight: bold;">TIẾT KIỆM CHI PHÍ</span><br>
 				<span>Chúng tôi cam kết chất lượng</span>
 			</div>
-			<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4 animate__animated animate__fadeInRight animate__slow">
 				<img class="icon"
-					src='<c:url value="/resources/images/icon_chatluong.png" />'><br>
-				<span style="font-size: 24px; font-weight: bold;">CHẤT LƯỢNG</span><br>
+					src='<c:url value="/resources/images/icon_giaohang.png" />'><br>
+				<span style="font-size: 24px; font-weight: bold;">GIAO HÀNG NHANH</span><br>
 				<span>Chúng tôi cam kết chất lượng</span>
 			</div>
 		</div>

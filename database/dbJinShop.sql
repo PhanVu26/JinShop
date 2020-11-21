@@ -9,8 +9,10 @@ create table ROLE (
 create table STAFF(
 	staffId integer auto_increment,
     fullName nvarchar(50),
+    userName varchar(50),
+    password varchar(50),
     age integer,
-    gender char(1),
+    gender bit,
     address nvarchar(100),
 	roleId integer,
     identNumber nvarchar(50),
@@ -58,7 +60,8 @@ create table PRODUCT_DETAILS(
     AddedAt varchar(20),
     primary key(productDetailsId),
     constraint FK_product_color foreign key(colorId) references COLOR(colorId),
-    constraint FK_product_size foreign key(sizeId) references SIZE(sizeId)
+    constraint FK_product_size foreign key(sizeId) references SIZE(sizeId),
+    constraint FK_product foreign key(productId) references PRODUCT(productId)
 );
 
 create table PROMOTION(

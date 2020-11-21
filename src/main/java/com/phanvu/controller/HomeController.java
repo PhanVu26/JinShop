@@ -10,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.phanvu.entity.User;
 
 @Controller
 @RequestMapping("/")
@@ -22,13 +21,12 @@ public class HomeController {
 	@GetMapping
 	@Transactional
 	public String Default() {
-		Session session = sessionFactory.getCurrentSession();
-		String sql = "from user";
-		List<User> list =  session.createQuery(sql).getResultList();
-		
-		for (User user : list) {
-			System.out.println(user.getUserName());
-		}
+		/*
+		 * Session session = sessionFactory.getCurrentSession(); String sql =
+		 * "from user"; List<User> list = session.createQuery(sql).getResultList();
+		 * 
+		 * for (User user : list) { System.out.println(user.getUserName()); }
+		 */
 		return "index";
 	}
 }
